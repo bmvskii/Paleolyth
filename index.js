@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const checkScore = () => {
         const currentScore = getCurrentScore();
 
-        if (currentScore == 5) {
+        if (currentScore == 20) {
             const gameOverBoard = document.querySelector('.gameover-board');
             const closeButton = gameOverBoard.querySelector('.close');
             const startAgain = gameOverBoard.querySelector(('.start-again'))
